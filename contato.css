@@ -1,0 +1,43 @@
+.menu{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+
+.btn{
+    padding: 8px 15px;
+    border-radius: 6px;
+    background-color: #eee;
+    cursor: pointer;
+
+}
+
+
+.pai{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.filho{
+   display: flex;
+    gap: 10px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+header{
+    border-bottom: 10px blue solid;
+}

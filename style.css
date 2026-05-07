@@ -1,0 +1,131 @@
+.menu{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+
+}
+.btn{
+    padding: 8px 15px;
+    border-radius: 6px;
+    background-color: #eee;
+    cursor: pointer;
+
+}
+
+
+
+
+bod{
+ background-color: antiquewhite;
+ 
+}
+
+
+
+.bombas{
+    background-color: grey;
+    border: 1px;
+    width: 200;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    color: white;
+    font-size: 30px;
+    font-family: Poppins;
+
+}
+
+.solucao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Poppins;
+    font-weight: bold;
+    
+}
+
+.solucao2{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Poppins;
+
+}
+
+.pai{
+
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+    font-family: Poppins;
+     
+
+}
+
+.imagem{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    
+}
+
+.filho{
+
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+   
+    
+
+}
+
+.button{
+    padding: 8px 15px;
+    border-radius: 6px;
+    background-color: #026b2f;
+    cursor: pointer;
+    font-family: Poppins;
+    font-weight: bold;
+    color: white;
+}
+    
+
+
+.redes{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+    font-family: Poppins;
+
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}    
