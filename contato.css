@@ -1,3 +1,7 @@
+body{
+    
+}
+
 .menu{
     display: flex;
     gap: 10px;
@@ -13,6 +17,11 @@
 
 }
 
+.cor{
+    border-bottom: 10px blue solid;
+    margin-top: 10px;
+}
+
 
 .pai{
     display: flex;
@@ -21,23 +30,10 @@
     align-content: center;
     justify-content: center;
     align-items: center;
+    background-color: gray;
+
+   
 }
-
-
-
-
-
 
 .filho{
-   display: flex;
-    gap: 10px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-header{
-    border-bottom: 10px blue solid;
 }
