@@ -1,6 +1,8 @@
 body{
-    
+
 }
+    
+
 
 .menu{
     display: flex;
@@ -10,30 +12,55 @@ body{
 
 
 .btn{
-    padding: 8px 15px;
+   padding: 8px 15px;
     border-radius: 6px;
-    background-color: #eee;
     cursor: pointer;
+    background-color: rgb(217, 219, 217);
+    font-family: Poppins;
+    text-decoration: none;
+    color: white;
 
+    transition: 0.3s;
+
+}
+.btn:hover{
+    background-color: darkblue;
+    transform: scale(1.0);
 }
 
 .cor{
     border-bottom: 10px blue solid;
     margin-top: 10px;
+    padding: 5px;
 }
 
 
 .pai{
+    height: 100vh;
+
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    background-color: gray;
+    background-color: rgb(255, 255, 255);
+}
+  
 
    
-}
+
 
 .filho{
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+     width: 300px;
+    box-shadow: 10px;
+   
+   
 }

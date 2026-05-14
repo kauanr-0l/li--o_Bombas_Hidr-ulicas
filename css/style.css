@@ -2,16 +2,31 @@
     display: flex;
     gap: 10px;
     justify-content: flex-end;
+    border-radius: 5px;
+    padding: 5px;
+
 
 }
 .btn{
     padding: 8px 15px;
     border-radius: 6px;
-    background-color: #eee;
     cursor: pointer;
+    background-color: rgb(217, 219, 217);
+    font-family: Poppins;
+    text-decoration: none;
+    color: rgb(46, 5, 228);
+
+    transition: 0.3s;
+   
 
 }
 
+/* efeito de botao crescente, animação de passar o mouse*/
+.btn:hover{
+    background-color: darkblue; 
+    transform: scale(1.0)
+
+}
 
 
 
@@ -95,7 +110,7 @@ bod{
 
 }
 
-.button{
+.ttb{
     padding: 8px 15px;
     border-radius: 6px;
     background-color: #026b2f;
